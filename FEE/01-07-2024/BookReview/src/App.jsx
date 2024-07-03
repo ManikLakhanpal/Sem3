@@ -49,9 +49,10 @@ function App() {
         {data.map((item) => {
           return (
             <div className="review">
+              <div className="reviewMain">
               <h1>{item.name}</h1>
               <p>{item.review}</p>
-              <hr />
+              </div>
             </div>
           );
         })}
